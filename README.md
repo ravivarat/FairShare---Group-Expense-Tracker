@@ -14,24 +14,31 @@ Delete Expense Entry: Remove incorrect or unnecessary entries.
 Database Integration: Store all expense data in the database using Django ORM.
 Export to PDF: Generate and download a PDF file summarizing the expense report.
 User-Friendly Interface: Styled using Bootstrap for a clean and responsive layout.
+
 Example Use Case:
+
 Rahul spends ₹100, Ravi spends ₹50, and Suraj spends nothing.
 Total spending = ₹150. Each person should pay ₹50.
 Since Rahul paid ₹100 and Ravi ₹50, Suraj owes ₹50 to Rahul.
 The app calculates such settlements automatically.
+
 Technologies Used:
+
 Backend: Python, Django Framework
 Frontend: Bootstrap 5 (for design and responsiveness)
 Database: SQLite (default Django database)
 PDF Generation: ReportLab library
+
 Key Functionalities (Step-wise):
+
 Add Expense: Users can enter expenses directly via the input form.
 Calculate Settlements: The system calculates the amount each person owes after an expense entry.
 Expense History: View the last 5 expense records.
 Delete Entry: Option to delete any incorrect entry.
 Export to PDF: Generate a PDF summary of the expense report and download it.
+
 Project Goals:
+
 Ensure fairness in group expense distribution.
 Provide a simple and effective way to manage shared expenses.
 Easy data export and deletion options for better financial tracking.
-Would you like me to modify anything further or help generate a requirements.txt file for your project? 😊
